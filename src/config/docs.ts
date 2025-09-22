@@ -143,87 +143,17 @@ export const docsConfig: SidebarNavItem[] = [
       // }
     ],
   },
-  // {
-  //   title: "Carousel",
-  //   href: "/docs/components/carousel",
-  //   items: [
-  //     {
-  //       title: "Box Carousel",
-  //       href: "/docs/components/carousel/box-carousel",
-  //       items: [],
-  //       label: "New"
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Background",
-  //   href: "/docs/components/background",
-  //   items: [
-  //     {
-  //       title: "Animated Gradient With SVG",
-  //       href: "/docs/components/background/animated-gradient-svg",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "Pixel Trail",
-  //       href: "/docs/components/background/pixel-trail",
-  //       items: [],
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Physics",
-  //   href: "/docs/components/physics",
-  //   items: [
-  //     {
-  //       title: "Elastic Line",
-  //       href: "/docs/components/physics/elastic-line",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "Gravity",
-  //       href: "/docs/components/physics/gravity",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "Cursor Attractor & Gravity",
-  //       href: "/docs/components/physics/cursor-attractor-and-gravity",
-  //       items: [],
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Image",
-  //   href: "/docs/components/image",
-  //   items: [
-  //     {
-  //       title: "Image Trail",
-  //       href: "/docs/components/image/image-trail",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "Parallax Floating",
-  //       href: "/docs/components/image/parallax-floating",
-  //       items: [],
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Filter",
-  //   href: "/docs/components/filter",
-  //   items: [
-  //     {
-  //       title: "Gooey SVG Filter",
-  //       href: "/docs/components/filter/gooey-svg-filter",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "Pixelate SVG Filter",
-  //       href: "/docs/components/filter/pixelate-svg-filter",
-  //       items: [],
-  //     }
-  //   ],
-  // },
+  {
+    title: "Carousel",
+    href: "/docs/components/carousel",
+    items: [
+      {
+        title: "Interactive Carousel",
+        href: "/docs/components/carousel/interactive-carousel",
+        items: [],
+      },
+    ],
+  },
 
   // {
   //   title: "Blocks",

@@ -1,0 +1,61 @@
+---
+title: Interactive Carousel
+description: A carousel with uwufied hover animations.
+component: true
+author: Armaan Verma
+---
+
+<ComponentPreview name="interactive-carousel" />
+
+## Installation
+
+{/* Coming soon */}
+
+## Usage
+
+<CodeSnippet title="Interactive Carousel Example">
+```tsx
+import InteractiveCarousel from "@/components/interactive-carousel";
+
+const carouselItems = [
+    {
+      image: "Link",
+      title: "Text",
+    }
+]
+
+export default function Example() {
+  return <InteractiveCarousel items={carouselItems} />;
+}
+
+```
+</CodeSnippet>
+
+## Understanding the component
+
+The InteractiveCarousel component displays a set of images and titles in a carousel format with interactive hover effects.
+
+## Credits
+
+By Armaan Verma.
+
+## Props
+
+<Table>
+  <TableHeader>
+    <TableRow>
+      <TableHead>Prop</TableHead>
+      <TableHead>Type</TableHead>
+      <TableHead> Default</TableHead>
+      <TableHead>Description</TableHead>
+    </TableRow>
+  </TableHeader>
+  <TableBody>
+    <TableRow>
+      <TableCell>items</TableCell>
+      <TableCell>`ItemProps[]`</TableCell>
+      <TableCell>`carouselItems`</TableCell>
+      <TableCell>An optional array of objects, each containing an `image` (string) and a `title` (string). If not provided, the component defaults to using the `carouselItems` array.</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>

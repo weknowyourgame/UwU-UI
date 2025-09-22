@@ -383,6 +383,22 @@ const fancy: Registry = {
     component: React.lazy(
       () => import('@/components/install-tabs'))
   },
+  "interactive-carousel": {
+    "name": "interactive-carousel",
+    "type": "registry:ui",
+    "files": [
+      {
+        "path": "components/interactive-carousel",
+        "type": "registry:ui"
+      }
+    ],
+    "author": "daniel petho <https://www.danielpetho.com>",
+    "dependencies": [
+      "framer-motion"
+    ],
+    component: React.lazy(
+      () => import('@/components/interactive-carousel'))
+  },
   "hero-images": {
     "name": "hero-images",
     "type": "registry:ui",

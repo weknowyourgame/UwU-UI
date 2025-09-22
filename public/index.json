@@ -328,6 +328,20 @@
       "prism-react-renderer"
     ]
   },
+  "interactive-carousel": {
+    "name": "interactive-carousel",
+    "type": "registry:ui",
+    "files": [
+      {
+        "path": "components/interactive-carousel",
+        "type": "registry:ui"
+      }
+    ],
+    "author": "daniel petho <https://www.danielpetho.com>",
+    "dependencies": [
+      "framer-motion"
+    ]
+  },
   "hero-images": {
     "name": "hero-images",
     "type": "registry:ui",

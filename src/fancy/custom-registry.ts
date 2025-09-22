@@ -15,6 +15,7 @@ import WakaTimeStatsCard from "@/components/wakatime-stats-card";
 import GlowyButtonDemo from "./examples/buttons/glowy-button-demo";
 import VideoShowcaseDemo from "./examples/card/video-showcase-demo";
 import FooterCard from "@/components/footer-card";
+import InteractiveCarousel from "@/components/interactive-carousel";
 
 export const customRegistry = {
   "3d-button": {
@@ -89,6 +90,10 @@ export const customRegistry = {
     component: FooterCard,
     name: "Footer Card",
   },
+  "interactive-carousel" : {
+    component: InteractiveCarousel,
+    name : "Interactive Carousel"
+  }
 } as const;
 
 
