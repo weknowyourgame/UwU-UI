@@ -4,13 +4,12 @@ import { ArrowDown, Calendar, Github, Linkedin, Twitter } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const FooterCard = () => {
   return (
     <section className="relative mt-24 overflow-hidden rounded-3xl footer-shadow">
       <div className="absolute inset-0">
-        <Image
-          src="https://pub-4de8a3d0fa684a02ba7a6c19c653485c.r2.dev/OIHZCKGdnHNaGppookHuHF0eKA4.avif"
+          <Image
+            src="https://pub-4de8a3d0fa684a02ba7a6c19c653485c.r2.dev/OIHZCKGdnHNaGppookHuHF0eKA4.avif"
           alt="clouds background"
           fill
           priority
