@@ -144,4 +144,4 @@ By Armaan Verma.
 
 ---
 
-*This documentation is also available in [interactive format](https://uwuui.com/docs/components/components/carousel/interactive-carousel).*
+*This documentation is also available in [interactive format](https://uwuui.com/docs/components/components/card/interactive-carousel).*

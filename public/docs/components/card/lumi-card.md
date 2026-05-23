@@ -261,7 +261,8 @@ export default function Example() {
           title={"UwU UI"}
           subtitle={"Cool UI components"}
           footerLabel={"github"}
-          imageUrl={"https://framerusercontent.com/images/OIHZCKGdnHNaGppookHuHF0eKA4.png"}
+          imageUrl={"/logo.png"}
+          videoUrl={"/demo-vid.mp4"}
         />
   )
 }
